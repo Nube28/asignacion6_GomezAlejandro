@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+header {
+    border: 1px solid #A7D7F9;
+    margin: 5%;
+    padding: 5%;
+    background-color: rgba(13, 160, 17, 0.50);
+    position: relative;
+}
+
+header::after {
+    content: ''; 
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #A7D7F9; 
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+}
+
+main {
+    border: 1px solid #A7D7F9;
+    margin: 5%;
+    padding: 5%;
+    background-color: rgba(209, 248, 255, 0.67);
+}
+
+header {
+    display: flex; 
+    align-items: center; 
+}
+
+header img:first-child {
+    width: 20%;
+    margin-right: 10px; 
+    max-height: 100px;
+}
+
+header img {
+    margin-left: 50px;
+    width: 5%;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.5em;
+    color: #fff; 
+    transition: color 0.3s; 
+}
+
+header p:hover {
+    color: #FFD700; 
+}
+
+table {
+    width: 100%; 
+    margin-top: 20px; 
+    border-collapse: collapse; 
+}
+
+th, td {
+    border: 1px solid #A7D7F9; 
+    padding: 10px; 
+    text-align: center; 
+    position: relative; 
+}
+
+th::after {
+    content: ''; 
+    display: block;
+    width: 100%;
+    height: 2px; 
+    background-color: #A7D7F9; 
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 0, 0.2); 
+}
+
+footer {
+    margin-top: 20px; 
+}
+
+footer h2 {
+    margin-bottom: 10px; 
+}
+
+footer input[type="submit"] {
+    background-color: #13A011; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+footer input[type="submit"]:hover {
+    background-color: #0A6A0B; 
+}
